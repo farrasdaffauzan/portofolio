@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+// import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Sosmed from "./Sosmed";
 
 const Hamburger = () => {
   const [toggle, setToggle] = useState(true);
@@ -35,23 +36,7 @@ const Hamburger = () => {
           </li>
         </ul>
 
-        <div className="flex felx-row justify-center">
-          <a href="/" className="p-1 lg:p-2">
-            <span>
-              <FaLinkedin className="w-6 h-6" />
-            </span>
-          </a>
-          <a href="/" className="p-1 lg:p-2">
-            <span>
-              <FaGithub className="w-6 h-6" />
-            </span>
-          </a>
-          <a href="/" className="p-1 lg:p-2">
-            <span>
-              <FaInstagram className="w-6 h-6" />
-            </span>
-          </a>
-        </div>
+        <Sosmed />
       </div>
     </div>
   );
