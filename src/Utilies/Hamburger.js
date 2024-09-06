@@ -20,18 +20,23 @@ const Hamburger = () => {
             </a>
           </li>
           <li className="group rufina-regular m-2">
-            <a href="/" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
-              Home
+            <a href="#about" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
+              About
             </a>
           </li>
           <li className="group rufina-regular m-2">
-            <a href="/" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
-              Home
+            <a href="#Experience" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
+              Experience
             </a>
           </li>
           <li className="group rufina-regular m-2">
-            <a href="/" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
-              Home
+            <a href="#project" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
+              Project
+            </a>
+          </li>
+          <li className="group rufina-regular m-2">
+            <a href="#skill" className="text-neutral-800 py-2 mx-8 group-hover:text-emerald-400">
+              Skill
             </a>
           </li>
         </ul>
