@@ -7,7 +7,7 @@ const Hamburger = () => {
   const [toggle, setToggle] = useState(true);
 
   return (
-    <div className=" flex px-4 items-center mr-9 lg:w-full justify-center" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0">
+    <div className=" flex px-4 items-center mr-3 lg:w-full justify-center" data-aos="fade-down" data-aos-duration="500" data-aos-delay="0">
       <button id="hamburger" name="hamburger" type="button" className="block absolute" onClick={() => setToggle(toggle ? false : true)}>
         <span className="lg:hidden">{toggle ? <AiOutlineMenu className="w-5 h-5" /> : <AiOutlineClose className="w-5 h-5" />}</span>
       </button>

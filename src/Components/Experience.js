@@ -3,7 +3,7 @@ import Title from "../Utilies/Title";
 const Experience = () => {
   return (
     <div className="mt-4 lg:mt-8">
-      <div className="container lg:m-auto">
+      <div className="container lg:m-auto lg:w-full">
         <Title title={"Experiences"} desc={"My Work Experiences"} color={"text-slate-500"} colorTitle={"lg:text-2xl"} />
         <div className="flex flex-wrap w-full lg:mx-5">
           <div className="flex flex-row p-3 lg:w-1/3">
