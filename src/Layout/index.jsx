@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 
-const MainLayout = ({ chilldren }) => {
+const MainLayout = ({ children }) => {
   return (
     <>
       <div>
         <Navbar />
-        {chilldren}
+        <div>{children}</div>
       </div>
     </>
   );
