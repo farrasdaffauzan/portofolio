@@ -10,6 +10,7 @@ import Training from "./Components/Training";
 import Project from "./Components/Projects";
 import Skill from "./Components/Skills";
 import Footer from "./Components/Footer";
+import Router from "./Router";
 
 const App = () => {
   useEffect(() => {
@@ -18,14 +19,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Hero />
       <About />
       <Experience />
       <Training />
       <Project />
       <Skill />
-      <Footer />
+      <Footer /> */}
+      <Router/>
     </div>
   );
 };
